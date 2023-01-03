@@ -1,823 +1,1039 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>Vamsi Konakanchi</title>
 
-    <meta name="Nothing But My Portfolio Page" content="">
-    <meta name="Vamsi Konakanchi" content="">
-    <meta name="Portfolio Page" content="">
+    <meta name="Nothing But My Portfolio Page" content="" />
+    <meta name="Vamsi Konakanchi" content="" />
+    <meta name="Portfolio Page" content="" />
 
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Varela" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Varela"
+      rel="stylesheet"
+    />
 
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-    <link rel="icon" sizes="16x16" href="assets/img/favicon.ico">
-    <link rel="manifest" href="assets/img/manifest.json">
-    <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon-16x16.png"
+    />
+    <link rel="icon" sizes="16x16" href="assets/img/favicon.ico" />
+    <link rel="manifest" href="assets/img/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="assets/img/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <div id="top" class="hero background-overlay">
+      <!-- Name & Description -->
+      <div class="hero-content">
+        <h1>I am Vamsi Konakanchi</h1>
+        <p class="hero-job">
+          <span
+            >I'M A <span id="sentence"></span
+            ><span class="cursor">|</span></span
+          >
+        </p>
+        <p class="hero-job-desc">
+          I STAND ON A SWEET SPOT WHERE CREATIVITY &amp; CODE INTERSECTS.
+        </p>
+      </div>
+      <!-- /.hero-content -->
 
-        <!-- Name & Description -->
-        <div class="hero-content">
-            <h1>I am Vamsi Konakanchi</h1>
-            <p class="hero-job"><span>I'M A <span id="sentence"></span><span class="cursor">|</span></span>
-            </p>
-            <p class="hero-job-desc">I STAND ON A SWEET SPOT WHERE CREATIVITY &amp; CODE INTERSECTS. </p>
-
-        </div><!-- /.hero-content -->
-
-        <div class="hero-arrow page-scroll home-arrow-down">
-            <a class="" href="#intro"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
-        </div><!-- /.hero-arrow -->
-
-    </div><!-- /.hero -->
+      <div class="hero-arrow page-scroll home-arrow-down">
+        <a class="" href="#intro"
+          ><i class="fa fa-angle-double-down" aria-hidden="true"></i
+        ></a>
+      </div>
+      <!-- /.hero-arrow -->
+    </div>
+    <!-- /.hero -->
     <!-- End Hero -->
 
     <!-- Header -->
     <header id="masthead" class="site-header">
-        <nav id="primary-navigation" class="site-navigation" data-spy="affix">
-            <div class="container">
-                <div class="navbar-header page-scroll">
+      <nav id="primary-navigation" class="site-navigation" data-spy="affix">
+        <div class="container">
+          <div class="navbar-header page-scroll">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#portfolio-perfect-collapse"
+              aria-expanded="false"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#portfolio-perfect-collapse" aria-expanded="false">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <!-- Name -->
-                    <div class="page-scroll site-logo">
-                        <a href="#top">Vamsi Konakanchi</a>
-                    </div>
-
-                </div><!-- /.navbar-header -->
-
-                <div class="main-menu collapse navbar-collapse" id="portfolio-perfect-collapse">
-
-                    <!-- Navigation -->
-                    <ul class="nav navbar-nav navbar-right">
-
-                        <li class="page-scroll"><a href="#top">Home</a></li>
-                        <li class="page-scroll"><a href="#intro">Intro</a></li>
-                        <li class="page-scroll"><a href="#services">Skills</a></li>
-                        <li class="page-scroll"><a href="#history">History</a></li>
-                        <li class="page-scroll"><a href="#works">Projects</a></li>
-                        <li class="page-scroll"><a href="#contact">Contact</a></li>
-
-                    </ul><!-- /.navbar-nav -->
-
-                </div><!-- /.navbar-collapse -->
+            <!-- Name -->
+            <div class="page-scroll site-logo">
+              <a href="#top">Vamsi Konakanchi</a>
             </div>
-        </nav><!-- /.primary-navigation -->
-    </header><!-- /#header -->
+          </div>
+          <!-- /.navbar-header -->
+
+          <div
+            class="main-menu collapse navbar-collapse"
+            id="portfolio-perfect-collapse"
+          >
+            <!-- Navigation -->
+            <ul class="nav navbar-nav navbar-right">
+              <li class="page-scroll"><a href="#top">Home</a></li>
+              <li class="page-scroll"><a href="#intro">Intro</a></li>
+              <li class="page-scroll"><a href="#services">Skills</a></li>
+              <li class="page-scroll"><a href="#history">History</a></li>
+              <li class="page-scroll"><a href="#works">Projects</a></li>
+              <li class="page-scroll"><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+      </nav>
+      <!-- /.primary-navigation -->
+    </header>
+    <!-- /#header -->
     <!-- End Header -->
 
     <!-- Main content -->
     <main id="main" class="site-main">
+      <!-- Hello section -->
+      <section class="site-section section-hello" id="intro">
+        <div class="container">
+          <h2>HELLO &amp; WELCOME</h2>
+          <p class="section-subtitle"><span>EXPLORE MY SKILLS</span></p>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="main-service text-right">
+                <div class="rectangle">
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                </div>
+                <!-- /.rectangle -->
+                <h3>Web Development</h3>
+                <p>
+                  I make beautiful websites such as this and sometimes i
+                  maintain other websites for our clients
+                </p>
+              </div>
+              <!-- /.main-service -->
+              <div class="main-service text-right">
+                <div class="rectangle">
+                  <i class="fa fa-comments" aria-hidden="true"></i>
+                </div>
+                <h3>Data Science</h3>
+                <p>
+                  Finding the best possbile solution for your business using
+                  data and machine learning is my thing
+                </p>
+              </div>
+              <!-- /.main-service -->
+            </div>
+            <div class="col-sm-4">
+              <div class="big-rectangle">
+                <h1
+                  style="
+                    color: white;
+                    position: relative;
+                    transform: rotate(-45deg);
+                    top: 30px;
+                    left: 25px;
+                    font-size: xxx-large;
+                  "
+                >
+                  SKILLS
+                </h1>
+                <!-- /.big-rectangle -->
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="main-service text-left">
+                <div class="rectangle">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </div>
+                <h3>Game Development</h3>
+                <p>
+                  I make full games from start or i can improve and optimize
+                  your games on top of existing game
+                </p>
+              </div>
+              <!-- /.main-service -->
+              <div class="main-service text-left">
+                <div class="rectangle">
+                  <i class="fa fa-list" aria-hidden="true"></i>
+                </div>
+                <!-- /.rectangle -->
+                <h3>Android App development</h3>
+                <p>
+                  I make apps sometimes or i can improve on top of the existing
+                  apps
+                </p>
+              </div>
+              <!-- /.main-service -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.section-hello -->
+      <!-- End Hello section -->
+      <!-- Services section -->
+      <section class="site-section section-services" id="services">
+        <div class="container-fluid">
+          <h2>EXPLORE MY SKILLS</h2>
+          <p class="section-subtitle">
+            <span>In Deapth overview of my skills</span>
+          </p>
+        </div>
 
-        <!-- Hello section -->
-        <section class="site-section section-hello" id="intro">
-            <div class="container">
-                <h2>HELLO &amp; WELCOME</h2>
-                <p class="section-subtitle"><span>EXPLORE MY SKILLS</span></p>
+        <div class="container">
+          <div class="carousel slide" id="services-carousel">
+            <div class="item-controls text-center">
+              <a
+                href="#services-carousel"
+                class="left btn carousel-control"
+                data-slide="prev"
+                ><i class="fa fa-angle-left" aria-hidden="true"></i>
+              </a>
+              <a
+                href="#services-carousel"
+                class="right btn carousel-control"
+                data-slide="next"
+                ><i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            </div>
+            <!-- /.item-controls -->
+
+            <div class="carousel-indicators nav-tabs text-center">
+              <a
+                data-target="#services-carousel"
+                href="#"
+                data-slide-to="0"
+                class="active"
+              >
+                <div class="col-xs-4 col-sm-fifth">
+                  <div class="service">
+                    <div class="rectangle">
+                      <i class="fa fa-code" aria-hidden="true"></i>
+                    </div>
+                    <p class="hidden-xs">Skills / Languages</p>
+                  </div>
+                </div> </a
+              ><!-- /.item -->
+              <a data-target="#services-carousel" href="#" data-slide-to="1">
+                <div class="col-xs-4 col-sm-fifth">
+                  <div class="service">
+                    <div class="rectangle">
+                      <i class="fa fa-laptop" aria-hidden="true"></i>
+                    </div>
+                    <p class="hidden-xs">Web development</p>
+                  </div>
+                </div> </a
+              ><!-- /.item -->
+              <a data-target="#services-carousel" href="#" data-slide-to="2">
+                <div class="col-xs-4 col-sm-fifth">
+                  <div class="service">
+                    <div class="rectangle">
+                      <i class="fa fa-bar-chart"></i>
+                    </div>
+                    <p class="hidden-xs">Data Science</p>
+                  </div>
+                </div> </a
+              ><!-- /.item -->
+              <a data-target="#services-carousel" href="#" data-slide-to="3">
+                <div class="col-xs-4 col-sm-fifth">
+                  <div class="service">
+                    <div class="rectangle">
+                      <i class="fa fa-gamepad" aria-hidden="true"></i>
+                    </div>
+                    <p class="hidden-xs">Game Development</p>
+                  </div>
+                </div> </a
+              ><!-- /.item -->
+              <a data-target="#services-carousel" href="#" data-slide-to="4">
+                <div class="col-xs-4 col-sm-fifth">
+                  <div class="service">
+                    <div class="rectangle">
+                      <i class="fa fa-mobile" aria-hidden="true"></i>
+                    </div>
+                    <p class="hidden-xs">Android App Development</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- /.carousel-indicators -->
+
+            <div class="carousel-inner">
+              <!-- Item 1 -->
+              <div id="item1" class="item tab-pane active">
                 <div class="row">
-                    <div class="col-sm-4">
-                        <div class="main-service text-right">
-                            <div class="rectangle">
-                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                            </div><!-- /.rectangle -->
-                            <h3>Web Development</h3>
-                            <p>I make beautiful websites such as this and sometimes i maintain other websites for our
-                                clients</p>
-                        </div><!-- /.main-service -->
-                        <div class="main-service text-right">
-                            <div class="rectangle">
-                                <i class="fa fa-comments" aria-hidden="true"></i>
-                            </div>
-                            <h3>Data Science</h3>
-                            <p>Finding the best possbile solution for your business using data and machine learning is
-                                my thing</p>
-                        </div><!-- /.main-service -->
+                  <div class="col-md-5">
+                    <div class="service-info">
+                      <h3 class="service-title">Languages / Skills</h3>
+                      <ul style="margin-top: 10px">
+                        <li>C / C++</li>
+                        <li>C#</li>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript / Typescript</li>
+                        <li>Python</li>
+                        <li>Go (Golang)</li>
+                        <li>Rust</li>
+                        <li>Koltin</li>
+                      </ul>
+                      <ul>
+                        <li>Jenkins</li>
+                        <li>Gitlab CI / CD</li>
+                        <li>Docker</li>
+                        <li>Git</li>
+                        <li>Linux</li>
+                        <li>AWS</li>
+                        <li>Azure</li>
+                        <li>Kuberntetes</li>
+                      </ul>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="big-rectangle">
-                            <h1
-                                style="color: white; position: relative; transform: rotate(-45deg); top: 30px; left: 25px; font-size: xxx-large; ">
-                                SKILLS
-                            </h1>
-                            <!-- /.big-rectangle -->
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="main-service text-left">
-                            <div class="rectangle">
-                                <i class="fa fa-check" aria-hidden="true"></i>
-                            </div>
-                            <h3>Game Development</h3>
-                            <p>I make full games from start or i can improve and optimize your games on top of existing
-                                game</p>
-                        </div><!-- /.main-service -->
-                        <div class="main-service text-left">
-                            <div class="rectangle">
-                                <i class="fa fa-list" aria-hidden="true"></i>
-                            </div><!-- /.rectangle -->
-                            <h3>Android App development</h3>
-                            <p>I make apps sometimes or i can improve on top of the existing apps</p>
-                        </div><!-- /.main-service -->
-                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img
+                      src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8&w=1000&q=80"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
                 </div>
-            </div>
-        </section><!-- /.section-hello -->
-        <!-- End Hello section -->
-        <!-- Services section -->
-        <section class="site-section section-services" id="services">
-
-            <div class="container-fluid">
-                <h2>EXPLORE MY SKILLS</h2>
-                <p class="section-subtitle"><span>In Deapth overview of my skills</span></p>
-            </div>
-
-            <div class="container">
-
-                <div class="carousel slide" id="services-carousel">
-
-                    <div class="item-controls text-center">
-                        <a href="#services-carousel" class="left btn carousel-control" data-slide="prev"><i
-                                class="fa fa-angle-left" aria-hidden="true"></i>
-                        </a>
-                        <a href="#services-carousel" class="right btn carousel-control" data-slide="next"><i
-                                class="fa fa-angle-right" aria-hidden="true"></i>
-                        </a>
-                    </div><!-- /.item-controls -->
-
-                    <div class="carousel-indicators nav-tabs text-center">
-                        <a data-target="#services-carousel" href="#" data-slide-to="0" class="active">
-                            <div class="col-xs-4 col-sm-fifth">
-                                <div class="service">
-                                    <div class="rectangle">
-                                        <i class="fa fa-laptop" aria-hidden="true"></i>
-                                    </div>
-                                    <p class="hidden-xs">Web development</p>
-                                </div>
-                            </div>
-                        </a><!-- /.item -->
-                        <a data-target="#services-carousel" href="#" data-slide-to="1">
-                            <div class="col-xs-4 col-sm-fifth">
-                                <div class="service">
-                                    <div class="rectangle">
-                                        <i class="fa fa-bar-chart"></i>
-                                    </div>
-                                    <p class="hidden-xs">Data Science</p>
-                                </div>
-                            </div>
-                        </a><!-- /.item -->
-                        <a data-target="#services-carousel" href="#" data-slide-to="2">
-                            <div class="col-xs-4 col-sm-fifth">
-                                <div class="service">
-                                    <div class="rectangle">
-                                        <i class="fa fa-gamepad" aria-hidden="true"></i>
-                                    </div>
-                                    <p class="hidden-xs">Game Development</p>
-                                </div>
-                            </div>
-                        </a><!-- /.item -->
-                        <a data-target="#services-carousel" href="#" data-slide-to="3">
-                            <div class="col-xs-4 col-sm-fifth">
-                                <div class="service">
-                                    <div class="rectangle">
-                                        <i class="fa fa-mobile" aria-hidden="true"></i>
-                                    </div>
-                                    <p class="hidden-xs">Android App Development</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div><!-- /.carousel-indicators -->
-
-
-                    <div class="carousel-inner">
-                        <!-- Item 1 -->
-                        <div id="item1" class="item tab-pane active">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">Web Development</h3>
-                                        <ul style="margin-top: 10px;">
-                                            <li>HTML</li>
-                                            <li>CSS</li>
-                                            <li>JavaScript</li>
-                                            <li>Angular / React.js</li>
-                                        </ul>
-                                        <ul>
-                                            <li>Python / Django</li>
-                                            <li>Java / Spring Boot</li>
-                                            <li>C# / Asp.Net</li>
-                                        </ul>
-                                        <ul>
-                                            <li>MySql</li>
-                                            <li>PostgressSql</li>
-                                            <li>MongoDb</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class=" col-md-7">
-                                    <img src="assets/img/web-development.jpg" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                        </div><!-- /.item -->
-                        <!-- Item 2 -->
-                        <div id="item2" class="item tab-pane">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">Data Science</h3>
-                                        <ul style="margin-top: 10px;">
-                                            <li>Artificial Intelligence</li>
-                                            <li>Machine Learning</li>
-                                            <li>Deep Learning</li>
-                                            <li>Python</li>
-                                            <li>Data Analysis</li>
-                                            <li>Deploying Model To Cloud</li>
-                                            <li>Making Frontend Application To Interact With Model</li>
-                                            <li>Training Deep Learning Models </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/data-science.jpeg" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                        </div><!-- /.item -->
-                        <!-- Item 3 -->
-                        <div id="item3" class="item tab-pane">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">Game Development</h3>
-                                        <ul style="margin-top: 10px;">
-                                            <li>Unreal Engine</li>
-                                            <li>Unity Engine</li>
-                                            <li>C++</li>
-                                            <li>C#</li>
-                                            <li>Blender</li>
-                                            <li>AI For Non-Player Characters </li>
-                                            <li>Gameplay Programming</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/video-game-development.jpeg" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                        </div><!-- /.item -->
-                        <!-- Item 4 -->
-                        <div id="item4" class="item tab-pane">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">Android App Development</h3>
-                                        <ul style="margin-top: 10px;">
-                                            <li>Java / Kotlin</li>
-                                            <li>Android Studio</li>
-                                            <li>UI</li>
-                                            <li>Database Integration</li>
-                                            <li>Implementing Navigation</li>
-                                            <li>Android Interactivity</li>
-                                            <li>XML</li>
-                                            <li>Material Design</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/mobile-development.jpg" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                        </div><!-- /.item -->
-                    </div><!-- /.carousel-inner -->
-                </div><!-- /.carousel -->
-            </div>
-        </section><!-- /.section-services -->
-        <!-- End Services section -->
-
-
-        <!-- History section -->
-        <section class="section-history" id="history">
-            <div class="container">
-                <div class="text-center section-diff-title">
-                    <h2>A Look Back At My History</h2>
-                    <p>This my Education and Experience</p>
-                </div>
-                <!-- Timeline -->
-                <ul class="timeline">
-                    <!-- Timeline badge -->
-                    <li class="timeline-start">
-                        <div class="rectangle"><span>2021</span></div>
-                    </li><!-- /.timeline-start -->
-
-                    <!-- Timeline job & description  -->
-                    <li>
-                        <div class="rectangle timeline-rectangle"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <div class="timeline-date">
-                                </div><!-- /.timeline-date -->
-                                <div class="timeline-position">
-                                    <p>Data Scientist</p>
-                                </div><!-- /.timeline-position -->
-                            </div><!-- /.timeline-heading -->
-                            <div class="timeline-body">
-                                <div class="timeline-body-thumb">
-                                    <img src="assets/img/data-science.jpeg" class="img-res" alt="">
-                                </div><!-- /.timeline-body-thumb -->
-                                <p><b> YoungMinds Technology Pvt Ltd</b> </p>
-                                <p>Feb 2022 - Present</p>
-                            </div><!-- /.timeline-body -->
-                        </div><!-- /.timeline-panel -->
-                    </li>
-
-                    <!-- Timeline badge -->
-                    <li class="timeline-start">
-                        <div class="rectangle"><span>2021</span></div>
-                    </li><!-- /.timeline-start -->
-
-                    <!-- Timeline job & description, inverted  -->
-                    <li class="timeline-inverted">
-                        <div class="rectangle timeline-rectangle"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <div class="timeline-position">
-                                    <p>Completed Bachelors Degree</p>
-                                </div><!-- /.timeline-position -->
-                            </div><!-- /.timeline-heading -->
-                            <div class="timeline-body">
-                                <div class="timeline-body-thumb">
-                                    <img src="assets/img/timeline-img.jpg" class="img-res" alt="">
-                                </div><!-- /.timeline-body-thumb -->
-                                <p><b>Civil Engineering</b></p>
-                                <p>2017 - 2021</p>
-                                <p>Andhra Loyola College Of Engineering And Technology</p>
-                            </div><!-- /.timeline-body -->
-                        </div><!-- /.timeline-panel -->
-                    </li><!-- /.timeline-inverted -->
-
-                    <!-- Timeline badge -->
-                    <li class="timeline-start">
-                        <div class="rectangle"><span>2018</span></div>
-                    </li><!-- /.timeline-start -->
-
-
-                    <!-- Timeline job & description  -->
-                    <li>
-                        <div class="rectangle timeline-rectangle"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <div class="timeline-date">
-
-                                </div><!-- /.timeline-date -->
-                                <div class="timeline-position">
-                                    <p>FreeLancer</p>
-                                </div><!-- /.timeline-position -->
-                            </div><!-- /.timeline-heading -->
-                            <div class="timeline-body">
-                                <div class="timeline-body-thumb">
-                                    <img src="assets/img/timeline-img.jpg" class="img-res" alt="">
-                                </div><!-- /.timeline-body-thumb -->
-                                <p>Made a few games for our clients</p>
-                                <p>Made a few website for our clients</p>
-                                <p>Made a few apps for our clients</p>
-                            </div><!-- /.timeline-body -->
-                        </div><!-- /.timeline-panel -->
-                    </li>
-                </ul><!-- /.timeline -->
-            </div>
-        </section><!-- /.section-history -->
-        <!-- End History section -->
-
-        <!-- Portfolio/Works section -->
-        <section class="site-section section-works" id="works">
-            <div class="container">
-                <h2>RECENT WORKS</h2>
-                <p class="section-subtitle"><span>OUR CLIENTS LOVE US! READ WHAT THEY HAVE TO SAY</span></p>
-
-                <div class="portfolio">
-                    <ul class="portfolio-sorting list-inline">
-                        <li><a href="#" class=" active" data-group="all">all</a></li>
-                        <li><a href="#" class="" data-group="webdesign">Web Design</a></li>
-                        <li><a href="#" class="" data-group="webdev">Web Development</a></li>
-                        <li><a href="#" class="" data-group="mobileapps">Mobile apps</a></li>
-                    </ul><!-- /.portfolio-sorting  -->
-
-                    <div id="grid">
-
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdesign"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-1.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem1">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>PSD Template</h3>
-                                    <p>Web Design</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdev"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-2.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem2">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>Website</h3>
-                                    <p>Web Development</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["mobileapps"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-4.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem3">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>IOS App</h3>
-                                    <p>Mobile App</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdesign"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-3.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem4">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>PSD Template</h3>
-                                    <p>Web Design</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdev"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-5.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem5">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>Wordpress Website</h3>
-                                    <p>Web Development</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["mobileapps"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-6.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem6">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>Android App</h3>
-                                    <p>Mobile App</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdev"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-7.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem7">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>Woocommerce Website</h3>
-                                    <p>Web Development</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-                        <!-- Portfolio item -->
-                        <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdesign"]'>
-                            <div class="portfolio-item">
-                                <div class="portfolio-item-thumb">
-                                    <img src="assets/img/portfolio-8.jpg" alt="" class="img-res">
-                                    <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem8">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </div><!-- /.portfolio-item-thumb  -->
-                                <div class="portfolio-info">
-                                    <h3>PSD Template</h3>
-                                    <p>Web Design</p>
-                                </div><!-- /.portfolio-info  -->
-                            </div>
-                        </div><!-- /.col-md-3  -->
-
-                    </div><!-- /#grid -->
-                </div>
-            </div>
-        </section><!-- /.section-works -->
-        <!-- End Works section -->
-
-        <!-- Me section -->
-        <section class="section-background section-me background-overlay text-center">
-            <div class="container page-scroll">
-                <h2>Are You Impressed By My Work?</h2>
-                <p>or just leave a messge that would make my day</p>
-                <a href="#contact" class="btn">GET IN TOUCH</a>
-            </div>
-        </section><!-- /.section-me -->
-        <!-- End Me section -->
-        <!-- Contacts section -->
-        <section class="site-section section-contact" id="contact">
-            <div class="container">
-                <h2>CONTACT Me</h2>
-                <p class="section-subtitle"><span>Here i am</span></p>
+              </div>
+              <!-- Item 1 -->
+              <div id="item2" class="item tab-pane active">
                 <div class="row">
-                    <form>
-                        <div class="col-md-4">
-                            <input class="form-control" type="text" id="name" placeholder="Name" required>
-                        </div>
-                        <div class="col-md-4">
-                            <input class="form-control" type="email" id="email" placeholder="Email" required>
-                        </div>
-                        <div class="col-md-4">
-                            <input class="form-control" type="text" id="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="col-sm-12">
-                            <textarea class="form-control" placeholder="Your Message" id="text" required></textarea>
-                        </div>
-
-                        <div class="col-sm-12">
-                            <button class="btn btn-inverted" onclick="sendEmail()">Send Message</button>
-                        </div>
-                    </form>
+                  <div class="col-md-5">
+                    <div class="service-info">
+                      <h3 class="service-title">Frameworks</h3>
+                      <ul style="margin-top: 10px">
+                        <li>Express.js</li>
+                        <li>Next.js</li>
+                        <li>Angular.js</li>
+                        <li>React.js</li>
+                        <li>React Native</li>
+                        <li>Flutter</li>
+                      </ul>
+                      <ul>
+                        <li>Django / Flask - Python</li>
+                        <li>Spring Boot / Hibernate - Java</li>
+                        <li>ASP.NET / ASP.NET Core - C#</li>
+                      </ul>
+                      <h3 class="service-title">Databases</h3>
+                      <ul>
+                        <li>MySql</li>
+                        <li>PostgresSql</li>
+                        <li>MongoDb</li>
+                        <li>OracleSql</li>
+                        <li>Microsoft Sql Server</li>
+                        <li>Redis / Memcached</li>
+                        <li>Neo4j</li>
+                        <li>Elastic Search</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img
+                      src="assets/img/web-development.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
                 </div>
+              </div>
+              <!-- /.item -->
+              <!-- Item 2 -->
+              <div id="item3" class="item tab-pane">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="service-info">
+                      <h3 class="service-title">Data Science</h3>
+                      <ul style="margin-top: 10px">
+                        <li>Artificial Intelligence</li>
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>Python</li>
+                        <li>Data Analysis</li>
+                        <li>Deploying Model To Cloud</li>
+                        <li>
+                          Making Frontend Application To Interact With Model
+                        </li>
+                        <li>Training Deep Learning Models</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img
+                      src="assets/img/data-science.jpeg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- /.item -->
+              <!-- Item 3 -->
+              <div id="item4" class="item tab-pane">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="service-info">
+                      <h3 class="service-title">Game Development</h3>
+                      <ul style="margin-top: 10px">
+                        <li>Unreal Engine</li>
+                        <li>Unity Engine</li>
+                        <li>C++</li>
+                        <li>C#</li>
+                        <li>Blender</li>
+                        <li>AI For Non-Player Characters</li>
+                        <li>Gameplay Programming</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img
+                      src="assets/img/video-game-development.jpeg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- /.item -->
+              <!-- Item 4 -->
+              <div id="item5" class="item tab-pane">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="service-info">
+                      <h3 class="service-title">Android App Development</h3>
+                      <ul style="margin-top: 10px">
+                        <li>Java / Kotlin</li>
+                        <li>Android Studio</li>
+                        <li>UI</li>
+                        <li>Database Integration</li>
+                        <li>Implementing Navigation</li>
+                        <li>Android Interactivity</li>
+                        <li>XML</li>
+                        <li>Material Design</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img
+                      src="assets/img/mobile-development.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- /.item -->
             </div>
-        </section><!-- /.section-contact-->
-        <!-- End Contacts section -->
+            <!-- /.carousel-inner -->
+          </div>
+          <!-- /.carousel -->
+        </div>
+      </section>
+      <!-- /.section-services -->
+      <!-- End Services section -->
 
-        <!-- Social Networks section -->
-        <section class="section-networks blue-bg">
-            <div class="container">
-                <a href="http://instagram.com/vamsi_konakanchi_" class="rectangle">
-                    <i class="fa fa-instagram"></i>
-                </a>
-                <a href="http://twitter.com/VamsiK00" class=" rectangle">
-                    <i class="fa fa-twitter"></i>
-                </a>
+      <!-- History section -->
+      <section class="section-history" id="history">
+        <div class="container">
+          <div class="text-center section-diff-title">
+            <h2>A Look Back At My History</h2>
+            <p>This my Education and Experience</p>
+          </div>
+          <!-- Timeline -->
+          <ul class="timeline">
+            <!-- Timeline badge -->
+            <li class="timeline-start">
+              <div class="rectangle"><span>2022</span></div>
+            </li>
+            <!-- /.timeline-start -->
+
+            <!-- Timeline job & description  -->
+            <li>
+              <div class="rectangle timeline-rectangle"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <div class="timeline-date"></div>
+                  <!-- /.timeline-date -->
+                  <div class="timeline-position">
+                    <p>Data Scientist</p>
+                  </div>
+                  <!-- /.timeline-position -->
+                </div>
+                <!-- /.timeline-heading -->
+                <div class="timeline-body">
+                  <div class="timeline-body-thumb">
+                    <img
+                      src="assets/img/data-science.jpeg"
+                      class="img-res"
+                      alt=""
+                    />
+                  </div>
+                  <!-- /.timeline-body-thumb -->
+                  <p><b> YoungMinds Technology Pvt Ltd</b></p>
+                  <p>Feb 2022 - Present</p>
+                </div>
+                <!-- /.timeline-body -->
+              </div>
+              <!-- /.timeline-panel -->
+            </li>
+
+            <!-- Timeline badge -->
+            <li class="timeline-start">
+              <div class="rectangle"><span>2021</span></div>
+            </li>
+            <!-- /.timeline-start -->
+
+            <!-- Timeline job & description, inverted  -->
+            <li class="timeline-inverted">
+              <div class="rectangle timeline-rectangle"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <div class="timeline-position">
+                    <p>Completed Bachelors Degree</p>
+                  </div>
+                  <!-- /.timeline-position -->
+                </div>
+                <!-- /.timeline-heading -->
+                <div class="timeline-body">
+                  <div class="timeline-body-thumb">
+                    <img
+                      src="assets/img/timeline-img.jpg"
+                      class="img-res"
+                      alt=""
+                    />
+                  </div>
+                  <!-- /.timeline-body-thumb -->
+                  <p><b>Civil Engineering</b></p>
+                  <p>2017 - 2021</p>
+                  <p>Andhra Loyola College Of Engineering And Technology</p>
+                </div>
+                <!-- /.timeline-body -->
+              </div>
+              <!-- /.timeline-panel -->
+            </li>
+            <!-- /.timeline-inverted -->
+
+            <!-- Timeline badge -->
+            <li class="timeline-start">
+              <div class="rectangle"><span>2018</span></div>
+            </li>
+            <!-- /.timeline-start -->
+
+            <!-- Timeline job & description  -->
+            <li>
+              <div class="rectangle timeline-rectangle"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <div class="timeline-date"></div>
+                  <!-- /.timeline-date -->
+                  <div class="timeline-position">
+                    <p>FreeLancer</p>
+                  </div>
+                  <!-- /.timeline-position -->
+                </div>
+                <!-- /.timeline-heading -->
+                <div class="timeline-body">
+                  <div class="timeline-body-thumb">
+                    <img
+                      src="assets/img/timeline-img.jpg"
+                      class="img-res"
+                      alt=""
+                    />
+                  </div>
+                  <!-- /.timeline-body-thumb -->
+                  <p>Made a few games for our clients</p>
+                  <p>Made a few website for our clients</p>
+                  <p>Made a few apps for our clients</p>
+                </div>
+                <!-- /.timeline-body -->
+              </div>
+              <!-- /.timeline-panel -->
+            </li>
+          </ul>
+          <!-- /.timeline -->
+        </div>
+      </section>
+      <!-- /.section-history -->
+      <!-- End History section -->
+
+      <!-- Portfolio/Works section -->
+      <section class="site-section section-works" id="works">
+        <div class="container">
+          <h2>RECENT PROJECTS</h2>
+          <p class="section-subtitle">
+            <span>PROJECTS DONE BY ME</span>
+          </p>
+
+          <div class="portfolio">
+            <ul class="portfolio-sorting list-inline">
+              <li><a href="#" class="active" data-group="all">all</a></li>
+            </ul>
+            <!-- /.portfolio-sorting  -->
+
+            <div id="grid">
+              <!-- /.col-md-3  -->
+              <!-- Portfolio item -->
+              <div
+                class="col-md-3 col-sm-4 col-xs-6"
+                data-groups='["mobileapps"]'
+              >
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumb">
+                    <img
+                      src="assets/img/video-game-development.jpeg"
+                      alt=""
+                      class="img-res"
+                    />
+                    <a
+                      href="https://vmskonakanchi.itch.io/theory-of-chaos"
+                      class="rectangle"
+                      target="_blank"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                  <!-- /.portfolio-item-thumb  -->
+                  <div class="portfolio-info">
+                    <h3>Game Made With Unity</h3>
+                    <p>Action and Adventure</p>
+                  </div>
+                  <!-- /.portfolio-info  -->
+                </div>
+              </div>
+              <!-- /.col-md-3  -->
+              <!-- Portfolio item -->
+              <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdev"]'>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumb">
+                    <img
+                      src="assets/img/portfolio-7.jpg"
+                      alt=""
+                      class="img-res"
+                    />
+                    <a
+                      href="http://trivarnaprojects.com"
+                      class="rectangle"
+                      target="_blank"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </a>
+                  </div>
+                  <!-- /.portfolio-item-thumb  -->
+                  <div class="portfolio-info">
+                    <h3>A Project Searching Application For Students</h3>
+                    <p>Web Development</p>
+                  </div>
+                  <!-- /.portfolio-info  -->
+                </div>
+              </div>
+              <!-- /.col-md-3  -->
+              <!-- Portfolio item -->
+              <!-- /.col-md-3  -->
             </div>
-        </section><!-- /.section-networks-->
-        <!-- End Social Networks section -->
+            <!-- /#grid -->
+          </div>
+        </div>
+      </section>
+      <!-- /.section-works -->
+      <!-- End Works section -->
 
-    </main><!-- /#main -->
+      <!-- Me section -->
+      <section
+        class="section-background section-me background-overlay text-center"
+      >
+        <div class="container page-scroll">
+          <h2>Are You Impressed By My Work?</h2>
+          <p>or just leave a messge that would make my day</p>
+          <a href="#contact" class="btn">GET IN TOUCH</a>
+        </div>
+      </section>
+      <!-- /.section-me -->
+      <!-- End Me section -->
+      <!-- Contacts section -->
+      <section class="site-section section-contact" id="contact">
+        <div class="container">
+          <h2>CONTACT Me</h2>
+          <p class="section-subtitle"><span>Here i am</span></p>
+          <div class="row">
+            <form>
+              <div class="col-md-4">
+                <input
+                  class="form-control"
+                  type="text"
+                  id="name"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="col-md-4">
+                <input
+                  class="form-control"
+                  type="email"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="col-md-4">
+                <input
+                  class="form-control"
+                  type="text"
+                  id="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="col-sm-12">
+                <textarea
+                  class="form-control"
+                  placeholder="Your Message"
+                  id="text"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="col-sm-12">
+                <button class="btn btn-inverted" onclick="sendEmail()">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- /.section-contact-->
+      <!-- End Contacts section -->
+
+      <!-- Social Networks section -->
+      <section class="section-networks blue-bg">
+        <div class="container">
+          <a href="http://instagram.com/vamsi_konakanchi_" class="rectangle">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="http://twitter.com/VamsiK00" class="rectangle">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
+      </section>
+      <!-- /.section-networks-->
+      <!-- End Social Networks section -->
+    </main>
+    <!-- /#main -->
     <!-- End Main content -->
 
     <!-- Footer -->
     <footer id="colophon" class="site-footer">
+      <div class="container-fluid">
+        <ul class="list-unstyled list-inline">
+          <li class="page-scroll"><a href="#top">Home</a></li>
+          <li class="page-scroll"><a href="#intro">Intro</a></li>
+          <li class="page-scroll"><a href="#services">Skills</a></li>
+          <li class="page-scroll"><a href="#history">History</a></li>
+          <li class="page-scroll"><a href="#works">Projects</a></li>
+          <li class="page-scroll"><a href="#contact">Contact</a></li>
+        </ul>
 
-        <div class="container-fluid">
-
-            <ul class="list-unstyled list-inline">
-                <li class="page-scroll"><a href="#top">Home</a></li>
-                <li class="page-scroll"><a href="#intro">Intro</a></li>
-                <li class="page-scroll"><a href="#services">Skills</a></li>
-                <li class="page-scroll"><a href="#history">History</a></li>
-                <li class="page-scroll"><a href="#works">Projects</a></li>
-                <li class="page-scroll"><a href="#contact">Contact</a></li>
-            </ul>
-
-            <div class="page-scroll">
-                <a href="#top" class="rectangle">
-                    <i class="fa fa-angle-double-up"></i>
-                </a>
-            </div>
-
+        <div class="page-scroll">
+          <a href="#top" class="rectangle">
+            <i class="fa fa-angle-double-up"></i>
+          </a>
         </div>
-    </footer><!-- /#footer -->
+      </div>
+    </footer>
+    <!-- /#footer -->
     <!-- End Footer -->
 
     <!-- Modals -->
     <div id="portfolioItem1" class="modal fade fade-scale" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-1.jpg" alt="">
-                </div>
-                <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="rectangle" data-dismiss="modal"
+              ><i class="fa fa-times"></i
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-1.jpg" alt="" />
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn">Visit Page</a>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem2" class="modal fade fade-scale" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-2.jpg" alt="">
-                </div>
-                <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="rectangle" data-dismiss="modal"
+              ><i class="fa fa-times"></i
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-2.jpg" alt="" />
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn">Visit Page</a>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem3" class="modal fade fade-scale" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">
-                </div>
-                <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="rectangle" data-dismiss="modal"
+              ><i class="fa fa-times"></i
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-4.jpg" alt="" />
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn">Visit Page</a>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem4" class="modal fade fade-scale" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-3.jpg" alt="">
-                </div>
-                <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="rectangle" data-dismiss="modal"
+              ><i class="fa fa-times"></i
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-3.jpg" alt="" />
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn">Visit Page</a>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem5" class="modal fade fade-scale" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-5.jpg" alt="">
-                </div>
-                <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="rectangle" data-dismiss="modal"
+              ><i class="fa fa-times"></i
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-5.jpg" alt="" />
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn">Visit Page</a>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem6" class="modal fade fade-scale" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-6.jpg" alt="">
-                </div>
-                <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="rectangle" data-dismiss="modal"
+              ><i class="fa fa-times"></i
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-6.jpg" alt="" />
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn">Visit Page</a>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem7" class="modal fade fade-scale" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-7.jpg" alt="">
-                </div>
-                <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="rectangle" data-dismiss="modal"
+              ><i class="fa fa-times"></i
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-7.jpg" alt="" />
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn">Visit Page</a>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem8" class="modal fade fade-scale" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
-                    <img class="img-res" src="assets/img/portfolio-8.jpg" alt="">
-                </div>
-                <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#" class="btn">Visit Page</a>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="rectangle" data-dismiss="modal"
+              ><i class="fa fa-times"></i
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-8.jpg" alt="" />
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn">Visit Page</a>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -852,10 +1068,6 @@
     <!-- Mail Sending Js -->
     <script src="assets/js/mail.js"></script>
 
-
     <script src="assets/js/sendemail.js"></script>
-
-
-</body>
-
+  </body>
 </html>
