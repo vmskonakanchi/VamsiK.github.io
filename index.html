@@ -738,7 +738,11 @@
           <h2>CONTACT Me</h2>
           <p class="section-subtitle"><span>Here i am</span></p>
           <div class="row">
-            <form>
+            <form
+              action="mailto:vmskonakanchi@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
               <div class="col-md-4">
                 <input
                   class="form-control"
@@ -770,13 +774,12 @@
                 <textarea
                   class="form-control"
                   placeholder="Your Message"
-                  id="text"
+                  id="body"
                   required
                 ></textarea>
               </div>
-
               <div class="col-sm-12">
-                <button class="btn btn-inverted" onclick="sendEmail()">
+                <button class="btn btn-inverted" type="submit">
                   Send Message
                 </button>
               </div>
@@ -795,6 +798,13 @@
           </a>
           <a href="http://twitter.com/VamsiK00" class="rectangle">
             <i class="fa fa-twitter"></i>
+          </a>
+          <a
+            href="/assets/Vamsi_Konakanchi_Resume.pdf"
+            class="rectangle"
+            target="_blank"
+          >
+            <i class="fa fa-file"></i>
           </a>
         </div>
       </section>
@@ -1115,7 +1125,5 @@
 
     <!-- Mail Sending Js -->
     <script src="assets/js/mail.js"></script>
-
-    <script src="assets/js/sendemail.js"></script>
   </body>
 </html>
